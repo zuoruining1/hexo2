@@ -3,46 +3,46 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Ruining.z Blog
-subtitle: Overcome the mediocre
-author: Ruining.z Blog
+title: Ruining,z Blog
+subtitle: 
+author: 左瑞宁
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://zuoruining1.github.io/    # Note: don't forget to modify the CNAME file to your url
-root: 
-permalink: 
+url: http://zuoruining1.github.io       # Note: don't forget to modify the CNAME file to your url
+root: /
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Ruining.z Blog | 左瑞宁的博客
+SEOTitle: Ruining.z Blog
 email: xinaogudu@163.com
 description: ""
 keyword: ""
-header-img: img/header_img/home-bg.jpg 
+header-img: img/header_img/home-bg-2-dark.png
 signature: true #show signature
-signature-img: 
+signature-img: img/signature/BeanTechSign-white.png 
 
 
 # SNS settings
 # RSS: false
- weibo_username:     xinaogudu
- zhihu_username:     xinaogudu
-github_username:     zuoruining1
-# twitter_username:   
-#facebook_username:  
-#linkedin_username:  
+# weibo_username:     Demonbaneen
+# zhihu_username:     Demonbane
+github_username:    YenYuHsuan
+# twitter_username:   Demonbane_x
+facebook_username:  YenYuHsuan
+linkedin_username:  yu-hsuan-yen
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 # Disqus settings
-#disqus_username: 
+disqus_username: your-disqus-ID
 
 # Duoshuo settings
 # duoshuo_username: kaijun
@@ -55,13 +55,13 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
-ga_domain: 
+ga_domain: yoursite
 
 
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
-sidebar-about-description: "求知若渴，虚心若愚。"
-sidebar-avatar: img/avatar.jpg      # 头像
+sidebar-about-description: "Hi, i'm John Doe"
+sidebar-avatar: img/ironman-draw.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - featured-tags
 - short-about
@@ -84,16 +84,16 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 ## Friends
 friends: [
     {
-        title: "Ruining.Z",
-        href: "http://zuoruining1.github.io"
+        title: "Bean Tech",
+        href: "http://beantech.org"
     },{
-        title: "cnblogs",
-        href: "http://www.cnblogs.com/zuoruining/"
+        title: "Kaijun's Blog",
+        href: "http://blog.kaijun.rocks"
     },{
-        title: "",
-        href: ""
+        title: "Hux Blog",
+        href: "http://huangxuan.me"
     },{
-        title: "",
+        title: "It Helps SEO",
         href: "#"
     }
 ]
@@ -178,4 +178,4 @@ sitemap:
 deploy:
   type: git
   repository: https://github.com/zuoruining1/zuoruining1.github.io
-  branch: 
+  branch: gh-page
