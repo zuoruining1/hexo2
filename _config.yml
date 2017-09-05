@@ -178,4 +178,4 @@ sitemap:
 deploy:
   type: git
   repository: https://github.com/zuoruining1/zuoruining1.github.io
-  branch: gh-page
+  branch: 
